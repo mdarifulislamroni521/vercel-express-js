@@ -1,11 +1,11 @@
 {
-  "main": "server.js",
-  "engines": {
-    "node": "16.x"
-  },
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "server": "nodemon server.js",
-    "vercel-build": "echo hello"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "express": "^4.18.2"
